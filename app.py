@@ -5,8 +5,8 @@ st.title("Explota tu creatividad en este tablero!")
 
 with st.sidebar:
   st.subheader("Propiedades del tablero")
-  height_tablero = st.slider("Altura del liezo:", 200, 400, 300)
-  width_tablero = st.slider("Anchura del liezo:", 200, 400, 300)
+  height_tablero = st.slider("Altura del liezo:", 100, 500, 300)
+  width_tablero = st.slider("Anchura del liezo:", 100, 500, 300)
   drawing_mode = st.sidebar.selectbox(
     "Herramienta de Dibujo: ",
     ("freedraw","line","rect","circle","transform","polygon","point"),
