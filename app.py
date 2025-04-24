@@ -5,9 +5,9 @@ st.title("Explota tu creatividad en este tablero!")
 
 with st.siderbar:
   st.subheader("Propiedades del tablero")
-drawing_mode = st.sliderbar.selectbox(
-  "Herramienta de Dibujo: ",
-  ("freedraw","line","rect","circle","transform","polygon","point"),
+  drawing_mode = st.sliderbar.selectbox(
+    "Herramienta de Dibujo: ",
+    ("freedraw","line","rect","circle","transform","polygon","point"),
 )
 
 stroke_width = st.slider("Tamaño del pincel",1,30,15)
