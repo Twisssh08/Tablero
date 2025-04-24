@@ -16,7 +16,7 @@ bg_color = st.color_picker("Color del fondo","#000000")
 
 canvas_result = st_canvas(
   fill_color = "rgba(255,165,0,0.3)",
-  stroke_Width = "stroke_width",
+  stroke_width = "stroke_width",
   stroke_color = "stroke_color",
   background_color = bg_color,
   height = 500,
