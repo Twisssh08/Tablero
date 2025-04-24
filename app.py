@@ -5,7 +5,7 @@ st.title("Explota tu creatividad en este tablero!")
 
 with st.sidebar:
   st.subheader("Propiedades del tablero")
-  drawing_mode = st.sliderbar.selectbox(
+  drawing_mode = st.sidebar.selectbox(
     "Herramienta de Dibujo: ",
     ("freedraw","line","rect","circle","transform","polygon","point"),
 )
