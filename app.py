@@ -3,7 +3,7 @@ from streamlit_drawable_canvas import st_canvas
 
 st.title("Explota tu creatividad en este tablero!")
 
-with st.siderbar:
+with st.sidebar:
   st.subheader("Propiedades del tablero")
   drawing_mode = st.sliderbar.selectbox(
     "Herramienta de Dibujo: ",
