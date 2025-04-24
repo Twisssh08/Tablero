@@ -21,8 +21,8 @@ canvas_result = st_canvas(
   stroke_width = stroke_width,
   stroke_color = stroke_color,
   background_color = bg_color,
-  height = 300,
-  width = 500,
+  height = st.slider("Altura del liezo:", 100, 500, 300),
+  width = st.slider("Anchura del liezo:", 100, 500, 300),
   drawing_mode = drawing_mode,
   key = "canvas",
 )
