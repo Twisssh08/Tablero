@@ -5,6 +5,8 @@ st.title("Explota tu creatividad en este tablero!")
 
 with st.sidebar:
   st.subheader("Propiedades del tablero")
+  height_tablero = st.slider("Altura del liezo:", 200, 400, 300)
+  width_tablero = st.slider("Anchura del liezo:", 200, 400, 300)
   drawing_mode = st.sidebar.selectbox(
     "Herramienta de Dibujo: ",
     ("freedraw","line","rect","circle","transform","polygon","point"),
@@ -19,8 +21,8 @@ canvas_result = st_canvas(
   stroke_width = stroke_width,
   stroke_color = stroke_color,
   background_color = bg_color,
-  height = 200,
-  width = 200,
+  height = height_tablero,
+  width = width_tablero,
   drawing_mode = drawing_mode,
   key = "canvas",
 )
